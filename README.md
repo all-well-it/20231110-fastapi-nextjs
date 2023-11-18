@@ -22,8 +22,8 @@ python3 -m uvicorn app:app --reload --host=0.0.0.0 --port=8080
 
 ### create nextjs app
 ```bash
-npx create-next-app@latest  # defaults ok
+yarn create next-app  # defaults ok
 cd new-app
-npm install axios
-npm run dev
+yarn add axios
+yarn dev
 ```
