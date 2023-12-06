@@ -1,0 +1,1 @@
+PYTHONPATH=src:test URL=http://localhost:8080 python3 -m unittest discover test
